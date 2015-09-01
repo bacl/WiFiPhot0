@@ -3,13 +3,14 @@ WiFiPhot0
 
 Firmware for [esp8266](https://nurdspace.nl/ESP8266) to remote control over wifi a camera's shutter. 
  
+For more details on the development I explain it over in my blog mkthings on the post WiFi Remote Shutter Release //insert link// 
 
 
 Features
 --------------
 - Remote trigger shutter over wifi
-- Set Timer Shutter
-- Set Timer loop shutter (useful for time lapses) 
+- Timer Shutter
+- Intervalometer  (useful for time lapses) 
  
 
 
@@ -44,7 +45,7 @@ How to use it
 
 Circuit Diagram
 ----
-**Disclamer:** my knowledge of circuits is limited, so this is just a simple diagram that I put togedder.
+**Disclamer:** just a simple diagram that I sketched, my knowledge of circuits is basic.
 
 ![](https://raw.githubusercontent.com/bacl/WiFiPhot0/art/circuit/Picture1.png)
 
@@ -70,3 +71,4 @@ The `esphttpd` base code is from December 2014
 
 License
 -------
+"[THE BEER-WARE LICENSE](https://en.wikipedia.org/wiki/Beerware)"
