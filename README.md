@@ -2,15 +2,18 @@ WiFiPhot0
 ===================================
 
 Firmware for [esp8266](https://nurdspace.nl/ESP8266) to remote control over wifi a camera's shutter. 
- 
-For more details on the development I explain it over in my blog mkthings on the post WiFi Remote Shutter Release //insert link// 
+For more details on the development I explain it over in my blog mkthings on the [post WiFi Remote Shutter Release](https://mkthings.wordpress.com/2015/09/14/wifiphot0-wifi-remote-shutter-release) 
+![](https://raw.githubusercontent.com/bacl/WiFiPhot0/art/wifiphot0_final.png)
+
+
+
 
 
 Features
 --------------
 - Remote trigger shutter over wifi
 - Timer Shutter
-- Intervalometer  (useful for time lapses) 
+- Intervalometer  (useful for time lapses)
  
 
 
@@ -45,19 +48,23 @@ How to use it
 
 Circuit Diagram
 ----
-**Disclamer:** just a simple diagram that I sketched, my knowledge of circuits is basic.
+**Disclamer:** just a simple diagram that I sketched, my circuit design skills are almost non-existence.
 
 ![](https://raw.githubusercontent.com/bacl/WiFiPhot0/art/circuit/Picture1.png)
 
-- A. Sockect to connect the esp8266 module
-- B. Jumper to enable firmware upload
-- C. Serial data pins
-- D. Power pins (3.3V)
-- E. Camera shutter pins
+- A Socket to connect the esp8266 module
+- B Jumper to enable firmware upload
+- C Serial data pin headers
+- D Power pin headers (3.3V)
+- E Camera shutter pin headers
 
 Designed using [Fritzing App](http://fritzing.org/download/)
 
  
+TODO
+-----
+- Refactor code
+- Updated esphttpd to the latest version
 
 About
 ---- 
